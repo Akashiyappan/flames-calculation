@@ -1,0 +1,103 @@
+.firstpar{
+    font-size: xx-large;
+    text-align: center;
+}
+#res{
+    font-size: xx-large;
+    font-style: italic;
+    
+}
+input{
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    
+}
+body{
+    background-image: url(image/bigbg.jpg);
+    background-repeat: no-repeat;
+    background-size:1600px;
+}
+.d1{
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    width: 400px;
+    position: relative;
+    left: 35%;
+    top: 50px;
+    background-image: url(image/bigscreenbg.jpg);
+    background-size: 500px;
+}
+.def{
+    position: relative;
+    top: 100px;
+    font-size: xx-large;
+    text-align: center;
+}
+@media screen and (max-width:1000px){
+    .d1{
+        left: 22%;
+    }
+    body{
+        background-image: url(image/midbg.webp);
+        background-size: 1200px;
+    
+    }
+}
+@media screen and (max-width:500px){
+    .firstpar{
+    font-size: large;
+    text-align: center;
+}
+body{
+    background-image: url(image/smallscreen.jpg);
+    background-size: 500px ;
+}
+input{
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+
+}
+.d1{
+    text-align: center;
+    border: 5px;
+    border-style: solid;
+    width: 300px;
+    position: static;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-left: 10%;
+    background-size: 550px;
+}
+.def{
+    position: relative;
+    top: 50px;
+    font-size: large;
+    text-align: center;
+    
+}
+}
+
+@media screen and (max-width:320px){
+    body{
+        background-image: url(image/smallscreen.jpg);
+        background-size: 400px;
+    }
+    .d1{
+        width: 250px;
+        margin-left: 20px;
+    }
+    input{
+        width: 150px;
+    }
+}
